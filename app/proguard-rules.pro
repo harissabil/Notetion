@@ -22,6 +22,7 @@
 
 -keep class com.harissabil.notetion.data.local.entity.** { *; }
 -keep class com.harissabil.notetion.domain.** { *; }
+-keep class com.harissabil.notetion.ui.screen.note_detail.** { *; }
 
 ##---------------Begin: proguard configuration for Gson  ----------
 # Gson uses generic type information stored in a class file when working with fields. Proguard

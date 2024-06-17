@@ -141,6 +141,7 @@ class NoteDetailViewModel(
                 }
                 Toast.makeText(context, "Text has been corrected.", Toast.LENGTH_SHORT).show()
             } catch (e: Exception) {
+                Timber.e(e)
                 _state.update {
                     it.copy(isTextCorrecting = false)
                 }
@@ -174,7 +175,7 @@ class NoteDetailViewModel(
 
         val inputContent = content {
             text(
-                "Generate a JSON string representation of at least 10 questions, each with four possible answers, based on the following content. Ensure the JSON structure correctly represents a list of questions with their answers, where each answer has a field indicating if it is correct. The questions and answers must be in the same language as the content provided. The questions should be context-specific, detailed, and relevant to the content. If the content is not sufficient to generate 10 questions, generate as many as appropriate based on the content.\n" +
+                "Generate a JSON string representation of at least 10 questions, each with four possible answers, based on the following content. Ensure the JSON structure correctly represents a list of questions with their answers, where each answer has a field indicating if it is correct. The questions and answers must be in the same language as the content provided. The questions should be context-specific, detailed, and relevant to the content. If the content is not sufficient to generate 10 questions, generate as many as appropriate based on the content. If the content is possible to generate more than 10 questions, generate as many as possible." +
                         "\n" +
                         "Here is an example of the JSON structure we want:\n" +
                         "\n" +

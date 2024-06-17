@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notetion</string>
+    <string name="fileprovider">com.harissabil.notetion.components.fileprovider</string>
+    <string name="version">Version %1$s</string>
+</resources>

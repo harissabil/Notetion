@@ -65,7 +65,7 @@ import com.mr0xf00.easycrop.CropResult
 import com.mr0xf00.easycrop.crop
 import com.mr0xf00.easycrop.rememberImageCropper
 import com.mr0xf00.easycrop.ui.ImageCropperDialog
-import kotlinx.coroutines.android.awaitFrame
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.compose.koinViewModel
 import java.io.File
@@ -174,9 +174,10 @@ fun NoteDetailScreen(
 
     LaunchedEffect(key1 = focusRequester) {
         if (showKeyboard && noteId == 0) {
+            delay(300)
             focusRequester.requestFocus()
-            awaitFrame()
-            keyboard?.show()
+//            awaitFrame()
+//            keyboard?.show()
         }
     }
 

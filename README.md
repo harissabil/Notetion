@@ -57,7 +57,7 @@ of [Android Studio](https://developer.android.com/studio)
    ```android
    ...
 
-   GEMINI_API_KEY = "https://my-api.plantnet.org/v2/"
+   GEMINI_API_KEY = "your gemini api key here"
    ```
 
 4. Get your API keys from [Gemini API key](https://aistudio.google.com/apikey), and replace the

@@ -2,7 +2,7 @@
 
 # Notetion: AI Study Companion
 
-Notetion is an AI-powered study companion app designed for Android. It addresses the challenges students face in organizing and comprehending study materials by leveraging Generative AI to offer features like scanning handwritten notes, automatic text correction, and AI-powered question generation. Notetion streamlines the study process by making note-taking more efficient and effective, ultimately supporting students in their exam preparation and overall learning.
+Notetion is an AI-powered study companion app for Android. It addresses the challenges students face in organizing and comprehending study materials by leveraging Generative AI to offer features like scanning handwritten notes, automatic text correction, and AI-powered question generation. Notetion streamlines the study process by making note-taking more efficient and effective, ultimately supporting students in their exam preparation and overall learning.
 
 Research indicates that while 66% of students prefer digital note-taking, complexities and inefficiencies remain. Notetion offers an accessible solution to enhance the digital note-taking experience. With its intuitive features and advanced AI integration, Notetion helps students overcome these hurdles, better organize their study materials, improve their understanding, and achieve their academic goals.
 
